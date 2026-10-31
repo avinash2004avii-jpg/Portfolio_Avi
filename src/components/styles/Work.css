@@ -11,6 +11,7 @@
   height: 100vh;
   box-sizing: border-box;
   will-change: transform;
+  margin-bottom: 120px;
 }
 .work-container {
   margin: auto;
@@ -37,9 +38,6 @@
   flex-shrink: 0;
   gap: 50px;
   justify-content: start;
-}
-.work-flex .work-box:nth-child(even) {
-  flex-direction: column-reverse;
 }
 .work-flex::before,
 .work-flex::after {

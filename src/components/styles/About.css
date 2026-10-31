@@ -69,3 +69,37 @@
     line-height: 2.7rem;
   }
 }
+
+.about-details {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-sub {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accentColor);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.about-tag {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #e0e0e0;
+  backdrop-filter: blur(5px);
+}
+
